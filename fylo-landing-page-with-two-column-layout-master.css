@@ -1,0 +1,111 @@
+*,
+::before,
+::after {
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; }
+
+main {
+  overflow: auto;
+  width: 100%;
+  display: grid;
+  min-height: 100vh;
+  place-content: center; }
+  main .container {
+    width: 375px;
+    background: url(https://raw.githubusercontent.com/cmb347827/fylo-landing-page-with-two-column-layout-master-github.io/main/bg-curve-mobile.svg) 48% 35%/auto no-repeat scroll #f6f6fe; }
+    main .container .illustration-1, main .container .illustration-2 {
+      width: 365px;
+      max-height: 400px; }
+      @media screen and (min-width: 1400px) {
+        main .container .illustration-1, main .container .illustration-2 {
+          width: 650px;
+          max-height: 500px; } }
+    main .container input {
+      width: 325px; }
+      @media screen and (min-width: 1400px) {
+        main .container input {
+          width: 600px;
+          max-width: 370px; } }
+    main .container .green-link {
+      color: DarkCyan;
+      color: #3c9f8f; }
+    main .container .btn-primary {
+      width: 325px;
+      background-color: MediumBlue;
+      background-color: #3065f8;
+      border: none; }
+      main .container .btn-primary:hover {
+        background-color: DarkCyan;
+        background-color: #3c9f8f; }
+      @media screen and (min-width: 1400px) {
+        main .container .btn-primary {
+          max-width: 160px; } }
+    main .container div.row:nth-of-type(1) {
+      margin: 50px 0; }
+      main .container div.row:nth-of-type(1) a {
+        text-decoration: none;
+        color: MidnightBlue;
+        color: #070439;
+        font-weight: 700; }
+      main .container div.row:nth-of-type(1) .logo-image {
+        transform: scale(0.7, 0.7); }
+    @media screen and (min-width: 1400px) {
+      main .container div.row:nth-of-type(2) {
+        padding: 50px 0; } }
+    main .container div.row:nth-of-type(3) {
+      margin: 80px 0; }
+      main .container div.row:nth-of-type(3) div figure {
+        background-color: Snow;
+        background-color: #fcfdfd;
+        padding: 25px; }
+      main .container div.row:nth-of-type(3) blockquote {
+        font-family: 'Open Sans', sans-serif; }
+      main .container div.row:nth-of-type(3) figcaption span:first-of-type {
+        font-weight: 700; }
+      @media screen and (min-width: 1400px) {
+        main .container div.row:nth-of-type(3) {
+          padding: 50px 0; } }
+    main .container div.row:nth-of-type(4) {
+      background-color: MediumSlateBlue;
+      background-color: #585989;
+      padding: 20px; }
+      @media screen and (min-width: 1400px) {
+        main .container div.row:nth-of-type(4) {
+          padding: 50px; } }
+    main .container footer.row:nth-of-type(1) {
+      background-color: MidnightBlue;
+      background-color: #070439;
+      color: Snow;
+      color: #fcfdfd;
+      padding: 15px; }
+      main .container footer.row:nth-of-type(1) .logo-white {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(227deg) brightness(104%) contrast(101%); }
+      main .container footer.row:nth-of-type(1) a {
+        text-decoration: none;
+        color: Snow;
+        color: #fcfdfd; }
+      @media screen and (min-width: 1400px) {
+        main .container footer.row:nth-of-type(1) {
+          padding: 30px; } }
+    @media screen and (min-width: 1400px) {
+      main .container {
+        width: 1400px;
+        background-image: url(https://raw.githubusercontent.com/cmb347827/fylo-landing-page-with-two-column-layout-master-github.io/main/bg-curve-desktop.svg);
+        background-position: 50% 42%;
+        background-attachment: scroll;
+        background-color: #f6f6fe; } }
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center; }
+footer .attribution a {
+  color: #3e52a3; }
+
+/*# sourceMappingURL=fylo-landing-page-with-two-column-layout-master.css.map */
